@@ -464,3 +464,60 @@ section h2 {
     margin-top: 6rem;
 >>>>>>> f75ee9e0f3143bb020d689d42dc746bcf08fb114
 }
+/* =========================
+   FLOATING SOCIAL & WHATSAPP
+========================= */
+
+.floating-social {
+    position: fixed;
+    left: 24px;
+    bottom: 24px;
+    z-index: 999;
+}
+
+.floating-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-social img {
+    width: 22px;
+    height: 22px;
+    opacity: 0.7;
+}
+
+.floating-social img:hover {
+    opacity: 1;
+}
+
+/* WhatsApp Floating */
+.floating-wa {
+    position: fixed;
+    right: 24px;
+    bottom: 24px;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.floating-wa img {
+    width: 26px;
+    height: 26px;
+}
+
+/* =========================
+   MOBILE ADJUSTMENT
+========================= */
+@media (max-width: 768px) {
+    .floating-social {
+        left: 16px;
+        bottom: 16px;
+    }
+
+    .floating-wa {
+        right: 16px;
+        bottom: 16px;
+    }
+}
