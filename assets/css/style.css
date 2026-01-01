@@ -471,7 +471,7 @@ section h2 {
 .floating-social {
     position: fixed;
     right: 24px;
-    bottom: 50px;
+    bottom: 48px;
     z-index: 999;
 }
 
@@ -519,8 +519,8 @@ section h2 {
 ========================= */
 @media (max-width: 768px) {
     .floating-social img {
-        width: 26px;
-        height: 26px;
+        width: 36px;
+        height: 36px;
     }
 
     .floating-wa img {
