@@ -271,7 +271,23 @@ p {
         border-top: 1px solid #222;
         color: #888;
     }
+    .works-grid::before {
+        background: linear-gradient(
+            to right,
+            #0f0f0f 0%,
+            rgba(15, 15, 15, 0) 100%
+        );
+    }
+
+    .works-grid::after {
+        background: linear-gradient(
+            to left,
+            #0f0f0f 0%,
+            rgba(15, 15, 15, 0) 100%
+        );
+    }
 }
+
 /* =========================
    MICRO INTERACTION — PREMIUM
 ========================= */
@@ -558,4 +574,44 @@ section h2 {
 
 .works-grid {
     scrollbar-width: none; /* Firefox */
+}
+/* =========================
+   SELECTED WORKS — EDGE FADE
+========================= */
+
+/* Wrapper positioning */
+.works-grid {
+    position: relative;
+}
+
+/* Fade kiri & kanan */
+.works-grid::before,
+.works-grid::after {
+    content: "";
+    position: sticky;
+    top: 0;
+    width: 48px;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Fade kiri */
+.works-grid::before {
+    left: 0;
+    background: linear-gradient(
+        to right,
+        #fff 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+}
+
+/* Fade kanan */
+.works-grid::after {
+    right: 0;
+    background: linear-gradient(
+        to left,
+        #fff 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
 }
