@@ -470,8 +470,8 @@ section h2 {
 
 .floating-social {
     position: fixed;
-    left: 24px;
-    bottom: 24px;
+    left: 100px;
+    bottom: 100px;
     z-index: 999;
 }
 
@@ -482,8 +482,8 @@ section h2 {
 }
 
 .floating-social img {
-    width: 30px;      /* ⬅ lebih tegas */
-    height: 30px;
+    width: 100px;      /* ⬅ lebih tegas */
+    height: 100px;
     opacity: 0.75;
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
@@ -496,8 +496,8 @@ section h2 {
 /* WhatsApp Floating (CTA utama) */
 .floating-wa {
     position: fixed;
-    right: 24px;
-    bottom: 24px;
+    right: 100px;
+    bottom: 100px;
     z-index: 999;
     display: flex;
     align-items: center;
@@ -505,8 +505,8 @@ section h2 {
 }
 
 .floating-wa img {
-    width: 40px;      /* ⬅ jelas & percaya diri */
-    height: 40px;
+    width: 100px;      /* ⬅ jelas & percaya diri */
+    height: 100px;
     transition: transform 0.2s ease;
 }
 
@@ -519,12 +519,12 @@ section h2 {
 ========================= */
 @media (max-width: 768px) {
     .floating-social img {
-        width: 26px;
-        height: 26px;
+        width: 100px;
+        height: 100px;
     }
 
     .floating-wa img {
-        width: 36px;
-        height: 36px;
+        width: 100px;
+        height: 100px;
     }
 }
