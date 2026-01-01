@@ -615,3 +615,29 @@ section h2 {
         rgba(255, 255, 255, 0) 100%
     );
 }
+/* Desktop: tampilkan scrollbar agar jelas bisa digeser */
+@media (min-width: 1024px) {
+    .works-grid {
+        scrollbar-width: thin; /* Firefox */
+    }
+
+    .works-grid::-webkit-scrollbar {
+        height: 6px;
+    }
+
+    .works-grid::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .works-grid::-webkit-scrollbar-thumb {
+        background: #ccc;
+    }
+    .works-grid {
+        cursor: grab;
+    }
+
+    .works-grid:active {
+        cursor: grabbing;
+    }
+    
+}
