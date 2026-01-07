@@ -498,8 +498,8 @@ section h2 {
 }
 
 .floating-social img {
-    width: 40px;      /* ⬅ lebih tegas */
-    height: 40px;
+    width: 60px;      /* ⬅ lebih tegas */
+    height: 60px;
     opacity: 0.75;
     transition: opacity 0.2s ease, transform 0.2s ease;
 }
@@ -521,8 +521,8 @@ section h2 {
 }
 
 .floating-wa img {
-    width: 40px;      /* ⬅ jelas & percaya diri */
-    height: 40px;
+    width: 60px;      /* ⬅ jelas & percaya diri */
+    height: 60px;
     transition: transform 0.2s ease;
 }
 
@@ -535,13 +535,13 @@ section h2 {
 ========================= */
 @media (max-width: 768px) {
     .floating-social img {
-        width: 36px;
-        height: 36px;
+        width: 60px;
+        height: 60px;
     }
 
     .floating-wa img {
-        width: 36px;
-        height: 36px;
+        width: 60px;
+        height: 60px;
     }
 }
 /* =========================
